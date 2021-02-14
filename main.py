@@ -4,8 +4,8 @@ from lotify.client import Client
 
 if __name__ == '__main__':
     lotify = Client()
-    message = os.getenv("MESSAGE")
-    token = os.getenv("TOKEN")
+    message = os.getenv("message")
+    token = os.getenv("token")
     image = os.getenv('IMAGE_URL')
     sticker = os.getenv('STICKER_ID')
     package = os.getenv('PACKAGE_ID')
